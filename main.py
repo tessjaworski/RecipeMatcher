@@ -1,3 +1,4 @@
+import sys
 
 import csv
 import sqlite3
@@ -5,9 +6,11 @@ import sqlite3
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *
+from PyQt5 import uic
 from PyQt5.QtCore import QFile, QTextStream
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget
+from PyQt5.QtGui import QIcon
 from PyQt5.uic import loadUi
 
 def create_database():
