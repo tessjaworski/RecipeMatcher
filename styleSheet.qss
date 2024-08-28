@@ -1,0 +1,60 @@
+/* Set background color for QMainWindow and all widgets */
+QMainWindow {
+    background-color: #f2f6fc; /* Soft blue */
+    color: #000; /* Dark gray text */
+    font-family: Arial, sans-serif;
+}
+
+QWidget {
+    background-color: #ccc; /* Light gray */
+}
+
+/* Adjust specific widget styles as needed */
+QScrollArea {
+    background-color: #ccc; /* Light gray */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+QDialog#recipeTitlesDialog {
+    background-color: #ccc; /* Light gray */
+    border: 2px solid #4CAF50; /* Green border */
+}
+
+/* Push button style */
+QPushButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Label style */
+QLabel {
+    color: #000; /* Black text */
+    font-size: 20px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+}
+/* Line edit (input field) style */
+QLineEdit {
+    color: #000; /* Black text */
+    background-color: #ccc; /* Light gray background */
+    border: 1px solid #999; /* Medium gray border */
+    padding: 8px;
+    border-radius: 4px;
+}
+
+QListWidget#ingredientList {
+    color: #000; /* Black text */
+    background-color: #ccc; /* White background */
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+QLabel {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+QLineEdit, QListWidget, QTextEdit {
+    color: black; 
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+QPushButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="ingredientList">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>110</y>
+      <width>271</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loadMoreButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>480</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load More</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="suggestButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>480</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Suggest Recipes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>400</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Ingredient</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="removeButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>400</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove Ingredient</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ingredientInput">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>50</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>0</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add your ingredients below!</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>37</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
