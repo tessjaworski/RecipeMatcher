@@ -1,5 +1,5 @@
 ## Overview
-RecipeMatcher is a recipe suggestion app where users can input ingredients and the app will suggest recipes. This project can introduce users to new recipes, aid with meal planning, and stop ingredients from spoiling.
+RecipeMatcher is a recipe suggestion app where users can input ingredients and the app will suggest recipes. This project can introduce users to new recipes, aid with meal planning, and prevent ingredients from spoiling.
 
 ## Installation
 Running this app requires Python 3.8+ and PyQt5. Use pip to install PyQt5.
