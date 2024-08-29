@@ -14,3 +14,6 @@ Add ingredients: Type in each ingredient and click the "Add" button for each ing
 Suggest Recipes: Click the "Suggest Recipes" button to load a list of recipes based on the ingredients you inputted.
 Load More Recipes: Click the "Load More" button to load additional recipes.
 Recipe details: Click on a recipe title to view the ingredients and instructions.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
