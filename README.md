@@ -6,7 +6,7 @@ Running this program requires Python 3.8+ and PyQt5. Use pip to install PyQt5.
 
 `pip install PyQt5`
 
-Clone the repositiory! The recipes.csv file and design1.ui is also required for recipe data and user interface.
+Clone the repository! The recipes.csv file and design1.ui file are also required for recipe data and user interface.
 
 ## Usage
 Run main.py to begin using RecipeMatcher.  
